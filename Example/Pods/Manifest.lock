@@ -1,0 +1,27 @@
+PODS:
+  - RLPublicLib (0.1.0):
+    - SnapKit
+  - SnapKit (4.2.0)
+  - SwiftyJSON (5.0.0)
+
+DEPENDENCIES:
+  - RLPublicLib (from `../`)
+  - SwiftyJSON
+
+SPEC REPOS:
+  trunk:
+    - SnapKit
+    - SwiftyJSON
+
+EXTERNAL SOURCES:
+  RLPublicLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RLPublicLib: 95e14c75cd73b959104b0a509ba4925cec6f07f0
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+
+PODFILE CHECKSUM: 944e0b0733cb5210642b459310c7eece7d083b39
+
+COCOAPODS: 1.9.3

@@ -1,0 +1,6 @@
+framework module RLPublicLib {
+  umbrella header "RLPublicLib-umbrella.h"
+
+  export *
+  module * { export * }
+}
