@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'RLPublicLib_Example' do
+  pod 'RLPublicLib', :path => '../'
+
+  target 'RLPublicLib_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
